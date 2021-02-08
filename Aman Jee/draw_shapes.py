@@ -11,7 +11,7 @@ def draw_square(some_turtle):
   
     for i in range(1,5):    
         some_turtle.forward(100)
-        some_turtle.right(90)
+        some_turtle.right(89)
 
 #added draw_star method        
 def draw_star(some_turtle):
@@ -29,7 +29,7 @@ def draw_art():
     mike = turtle.Turtle()
     mike.shape("turtle")
     mike.color("black")
-    mike.speed(10)
+    mike.speed(9)
 
     for i in range(1,37):
         draw_square(mike)
